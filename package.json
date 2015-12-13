@@ -1,0 +1,28 @@
+{
+  "name": "fancine",
+  "version": "1.0.0",
+  "description": "Web de cine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cine"
+  ],
+  "author": "Santiago Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "request": "2.9.x",
+    "underscore": "latest",
+    "swig": "latest",
+    "string": "latest",
+    "node-schedule": "latest",
+    "twitter": "latest",
+    "tinyurl": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impronunciable/moviedb.git"
+  }
+}
