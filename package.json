@@ -4,7 +4,8 @@
   "description": "Web de cine",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "pm2 start app.js --no-daemon" 
   },
   "keywords": [
     "Cine"
