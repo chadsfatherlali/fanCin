@@ -7,6 +7,7 @@
 <body>
 
 <div>
+    <!-- body -->
     {% for movie in movies %}
         <h2><a href="/pelicula/{{ movie.original_title|slugify }}--{{ movie.id }}">{{ movie.original_title }}</a></h2>
         <img src="{{ movie.poster_path|getImageUrl('w300') }}" />
